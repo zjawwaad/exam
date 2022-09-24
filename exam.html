@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="./exam.css">
+    <script src="exam.js"></script>
+</head>
+
+<body style="background-color:lightgrey;">
+
+    <!--Navigation-->
+    <div class="livescores">
+        <h1 class="scoretitle ">Live Scores</h1>
+        <ul class="list">
+            <li>SJC NINJAS</li>
+            <li>CHI SAMURAI-1 </li>
+            <li>BOS Hackers-1</li>
+            <li>BOI Knights-1</li>
+            <li>NS Pirates-1</li>
+            <li>TUL Wizards-1</li>
+            <li>TYO Yokai-1</li>
+            <li>SEA Sea Lions-1</li>
+        </ul>
+    </div>
+    <div class="dsnnbar">
+        <h1 class="dsnn ">DSNN</h1>
+        <ul class="list2">
+            <li>Football</li>
+            <li>Basketball</li>
+            <li>Baseball</li>
+            <li>Soccer</li>
+            <li>More..</li>
+        </ul>
+        <div class="icons">
+            <img src="./images/assets/search-light.png" alt="search light" image class="baricon">
+            <img src="./images/assets/hamburger-light.png" alt="hamburger light" image class="baricon">
+            <img src="images/assets/user-circle-light.png" alt="profile image" image class="baricon">
+        </div>
+    </div> 
+<!--Main-->
+    <div class="container">
+        <div class="containerleft">
+            <div class="topstories">
+                <div class="topstoryheader">
+                    <h2>Top Stories</h2>
+                </div>
+                <div class="topstorybody">
+                    <p>Ninjas up big in 5th Best sports cities Chai joins Hall of Fame Tournament underway Samurai of Wizards...</p>
+                </div>
+            </div>
+            <div class="customize">
+                <div class="customizeheader">
+                    <h3>Customize your DSNN</h3>
+                </div>
+                <div class="customizebody">
+                    <button class="signin">Sign In</button>
+                    <button class="signup">Sign Up</button>
+                </div>
+            </div>
+            <div class="nevermissbox">
+                <div class="nevermissheader">
+                    <h3>Never miss a play</h3>
+                    <button class="subscribe" onclick="removesubscribe(this)">Subcribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="maincontainer">
+            <div class="title">
+                <h1 class="live">•Live</h1>
+                <h1 class="leading">Ninjas Leading Pirates</h1>
+            </div>
+            <div class="rows">
+                <div class="row1">
+                    <img src="./images/assets/sjc-ninjas.png" alt="Ninjas Logo">
+                    <div class="city">San Jose</div>
+                    <div class="ninjas">Ninjas</div>
+                    <div class="wl">(12 W - 2 L)</div>
+                    <div class="score" onclick="counter(this)">319</div>
+                </div>  
+                <div class="row2">
+                    <div class="vs">VS</div>
+                    <p>0:13 remaining</p>
+                    <p>5th Period</p>
+                </div>
+                <div class="row 3">
+                    <img src="./images/assets/ns-pirates.png" alt="Pirates Logo">
+                    <div class="city">Nova Scotia</div>
+                    <div class="pirates">Pirates</div>
+                    <div class="wl">(10 W - 3 L)</div>
+                    <div class="score" onclick="counter(this)">159</div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h5>A conservative match between the two top-performing sides in the 
+                    Central League Division with a number 1 seed at stake... <a href="#">get live updates</a></h5>
+                </div>
+            </div>
+            <div class="info">
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

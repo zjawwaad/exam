@@ -1,0 +1,215 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.livescores {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+}
+
+
+.list {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    list-style-type: none;
+    color: black;
+    }
+
+
+.scoretitle {
+        margin-left: 20px;
+        color: black;
+        background-color: white;
+}
+
+.dsnnbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+}
+
+.dsnn{
+    background-color: red;
+    padding: 0;
+    margin: 0%;
+    transform: skew(-20deg);
+}
+
+.list2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+.baricon {
+    height: 40px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerleft {
+    flex: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topstories {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    display: flex;
+    Background-color: white;
+    color: black;
+    margin: 1em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.topstoryheader {
+    text-decoration:underline;
+}
+
+.customize {
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+    display: flex;
+    Background-color: white;
+    color: black;
+    margin: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+.signin {
+    background-color: blue;
+    color: white;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+}
+
+.signup {
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+}
+
+.nevermissbox {
+    position: fixed;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    Background-color: white;
+    color: black;
+    margin: 1em;
+    left: 1px;
+    bottom: 5em;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.maincontainer {
+    border-radius: 25px;
+    background-color: white;
+    position: absolute;
+    margin-left: 1em;
+    left: 15em;
+    bottom: 5em;
+    width: 70%;
+    height: 1000px;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+}
+
+
+.live {
+    color: red;
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.row1, .row3 { 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2 {
+    justify-content: space-evenly;
+}
+
+.pirates {
+    color:red;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.ninjas {
+    color: #119B9D;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.city {
+    font-weight: 900;
+    font-size: large;
+}
+
+.score {
+    font-size: 90px;
+    font-weight: 1000;
+}
+
+.subscribe {
+    width: 150px;
+    color: black;
+    background-color: yellow;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+}
+
+.hideElement {
+    display: none;
+}
+
+
+
+
+.vs {
+    font-size: xx-large;
+}
